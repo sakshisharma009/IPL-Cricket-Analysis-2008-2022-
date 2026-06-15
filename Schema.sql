@@ -1,0 +1,22 @@
+CREATE TABLE matches (
+    id                INTEGER PRIMARY KEY,
+    city              VARCHAR(100),
+    match_date        DATE,
+    season            VARCHAR(20),
+    match_number      VARCHAR(50),
+    team1             VARCHAR(100),
+    team2             VARCHAR(100),
+    venue             VARCHAR(150),
+    toss_winner       VARCHAR(100),
+    toss_decision     VARCHAR(10),
+    super_over        VARCHAR(5),
+    winning_team      VARCHAR(100),
+    won_by            VARCHAR(20),
+    margin            VARCHAR(50),
+    method            VARCHAR(50),
+    player_of_match   VARCHAR(100),
+    team1_players     TEXT,
+    team2_players     TEXT,
+    umpire1           VARCHAR(100),
+    umpire2           VARCHAR(100)
+);
